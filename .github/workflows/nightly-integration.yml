@@ -1,10 +1,10 @@
+
 name: Nightly Integration Tests
 
 on:
-  schedule:
-    - cron: '0 6 * * *' # 06:00 UTC daily
   workflow_dispatch: # Allow manual triggering
 
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 permissions:
   contents: read
 

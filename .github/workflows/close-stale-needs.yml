@@ -1,11 +1,10 @@
+
 name: Close stale needs-info / needs-repro issues
 
 on:
-  schedule:
-    # Run daily at 09:00 UTC
-    - cron: '37 9 * * *'
   workflow_dispatch:
 
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 permissions: {}
 
 jobs:

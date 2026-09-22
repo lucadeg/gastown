@@ -1,9 +1,9 @@
+
 name: Block Internal PRs
 
 on:
-  pull_request:
-    types: [opened, reopened]
-
+  workflow_dispatch:
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 permissions: {}
 
 jobs:
